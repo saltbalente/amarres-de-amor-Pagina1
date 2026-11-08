@@ -16,7 +16,7 @@ python3 -m http.server 8080   # y abrir http://localhost:8080/
 
 | | Valor |
 |---|---|
-| **WhatsApp** | `13044360811` → se muestra como +1 (304) 436-0811 |
+| **WhatsApp** | `12253607317` → se muestra como +1 (225) 360-7317 |
 | **Llamadas** | ninguna: la web de referencia las retiró («sin teléfono, llamadas retiradas») |
 | **Google Tag Manager** | `GTM-T4BCC6P` — snippet al principio de `<head>` y `<noscript>` tras `<body>` |
 | **gtag.js** | carga `AW-11495571750` y hace `config` de `AW-11495571750` y `AW-16892054054` |
@@ -37,7 +37,7 @@ del diagnóstico:
 
 ### El número vive en los enlaces
 
-No hay `data-wa` en el `<body>`: **el número se lee de los propios `href="https://wa.me/13044360811"`**.
+No hay `data-wa` en el `<body>`: **el número se lee de los propios `href="https://wa.me/12253607317"`**.
 Así la herramienta «Cambiar número de WhatsApp» del dashboard (que reescribe los `wa.me/…` y el número
 visible dentro de esos enlaces) cambia toda la página de una vez y nada queda apuntando al número
 viejo. Cada enlace lleva su mensaje en `data-wa-text`; `script.js` le añade `?text=` y lo vuelve a
