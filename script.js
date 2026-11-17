@@ -65,7 +65,7 @@
   });
   medir("pagina_lista", { pagina: body.dataset.pagina || "amarres-de-amor" });
 
-  /* Números visibles: +15312271837 → +1 (531) 227-1837 */
+  /* Números visibles: +17864712501 → +1 (786) 471-2501 */
   function formatear(d) {
     d = String(d);
     if (d.length === 11 && d.charAt(0) === "1") return "+1 (" + d.slice(1, 4) + ") " + d.slice(4, 7) + "-" + d.slice(7);
